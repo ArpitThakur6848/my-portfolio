@@ -4,31 +4,14 @@ const projects = [
 
     {
         id: 1,
-        title: "Project One",
-        description: "Description for project one.",
-        image: "/PIP.png",
-        tags: ["React", "Node.js"],
-        demoUrl: '#',
-        githubUrl: '#',
+        title: "Movie Search Engine",
+        description: "Includes optimized debounced search system, trending section, and TMDB API.",
+        image: "/Project1.png",
+        tags: ["React", "TailwindCSS", "AppWrite", "HTML/CSS"],
+        demoUrl: 'https://movie-search-engine-arpit-thakur.vercel.app/',
+        githubUrl: 'https://github.com/ArpitThakur6848/movie-search-engine',
     },
-    {
-        id: 2,
-        title: "Project Two",
-        description: "Description for project two.",
-        image: "/PIP.png",
-        tags: ["MySQL", "C"],
-        demoUrl: '#',
-        githubUrl: '#',
-    },
-    {
-        id: 3,
-        title: "Project Three",
-        description: "Description for project three.",
-        image: "/PIP.png",
-        tags: ["Python", "Java"],
-        demoUrl: '#',
-        githubUrl: '#',
-    },
+    
 ]
 
 export const ProjectsSection = () => {
@@ -37,7 +20,7 @@ export const ProjectsSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> Featured <span className="text-primary"> Projects </span></h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
 
-            Here are some of my recent projects. Click on the links to view the code or live demos.
+            Here is my most recent project. Click on the link to view the code or live demo.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
